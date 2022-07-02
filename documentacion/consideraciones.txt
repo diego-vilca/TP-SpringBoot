@@ -1,0 +1,16 @@
+base de datos: tp_final
+user: root
+pass: 
+
+
+Nota: Ejecutar las solicitudes de la colección de postman en orden asegura el funcionamiento de la API.
+
+
+
+Aclaraciones: 
+
+* Para evitar que exista ambiguedad de métodos entre endpoints, opte por cambiar el path "/ventas/{fecha_venta}" por "/ventas/date/{fecha_venta}"
+
+* Como en primera instancia opte por la relacion bidireccional @OneToOne entre la clase Venta y Cliente, me quedo que solo puede existir una venta por cliente, lo cual quiero corregir en el futuro.
+
+* No llegue a realizar el el punto optativo, pero si implemente el borrado lógico.
